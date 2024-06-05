@@ -1,0 +1,31 @@
+{
+"sales_order_payment": {
+    "description": "",
+    "data": [
+        {"key": "entity_id", "description": "The primary key of the table, unique identifier for each payments associated with orders.."},
+        {"key": "base_shipping_captured", "description": " This records the base currency amount of shipping that has been captured for a given order payment."},
+        {"key": "shipping_captured", "description": "The total amount of shipping costs that have been successfully captured for a given order."},
+        {"key": "amount_refunded", "description": "The total amount that has been refunded for a given order's payment.."},
+        {"key": "parent_id", "description": "The foreign key that links a record in the sales_order_payment table to its corresponding record in the sales_order table."},
+        {"key": "amount_canceled", "description": "The total amount of money that has been canceled for a given order's payment."},
+        {"key": "method", "description": "The payment method used for a given order.."},
+        {"key": "base_amount_authorized", "description": "The base currency amount that has been authorized for the payment of a sales order.."},
+        {"key": "amount_paid", "description": "the total amount that has been paid by the customer for a particular order."},
+        {"key": "quote_payment_id", "description": "The identifier that links the payment record to a specific payment quote (shopping cart)."},
+        {"key": "shipping_amount", "description": "The total amount charged for shipping the items in an order."},
+        {"key": "amount_authorized", "description": "The total amount that has been authorized for payment by the payment gateway but not necessarily captured yet."},
+        {"key": "base_amount_ordered", "description": "Date and time when the order item was last updated."},
+        {"key": "base_amount_paid", "description": "The total amount paid in the base currency."},
+        {"key": "base_amount_paid_online", "description": "The total amount paid online in the base currency."},
+        {"key": "base_amount_refunded", "description": "The total amount refunded in the base currency."},
+        {"key": "amount_ordered", "description": "The total amount ordered in the order currency."},
+        {"key": "base_shipping_refunded", "description": "The total shipping amount refunded in the base currency."},
+        {"key": "echeck_bank_name", "description": "The name of the bank for eCheck payments."},
+        {"key": "additional_data", "description": "Additional payment information, often stored as serialized data."},
+        {"key": "account_status", "description": "The status of the payment account."},
+        {"key": "cc_status", "description": "The credit card status."},
+        {"key": "anet_trans_method", "description": "The transaction method for Authorize.Net payments."},
+        {"key": "po_number", "description": "The purchase order number."}
+    ]
+}
+}

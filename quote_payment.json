@@ -1,0 +1,99 @@
+{
+  "quote_payment": {
+    "description": "This table stores information about payments made for quotes.",
+    "data": [
+      {
+        "key": "payment_id",
+        "description": "The primary key of the table, unique identifier for each payment."
+      },
+      {
+        "key": "quote_id",
+        "description": "The foreign key referencing the quote this payment is associated with."
+      },
+      {
+        "key": "created_at",
+        "description": "The timestamp of when the payment record was created."
+      },
+      {
+        "key": "updated_at",
+        "description": "The timestamp of when the payment record was last updated."
+      },
+      {
+        "key": "method",
+        "description": "The payment method used (e.g., credit card, paypal, etc.)."
+      },
+      {
+        "key": "cc_type",
+        "description": "The type of credit card used (e.g., Visa, Mastercard, etc.)."
+      },
+      {
+        "key": "cc_number_enc",
+        "description": "The encrypted credit card number."
+      },
+      {
+        "key": "cc_last_4",
+        "description": "The last four digits of the credit card number."
+      },
+      {
+        "key": "cc_cid_enc",
+        "description": "The encrypted credit card security code."
+      },
+      {
+        "key": "cc_owner",
+        "description": "The name of the credit card owner."
+      },
+      {
+        "key": "cc_exp_month",
+        "description": "The expiration month of the credit card."
+      },
+      {
+        "key": "cc_exp_year",
+        "description": "The expiration year of the credit card."
+      },
+      {
+        "key": "cc_ss_owner",
+        "description": "The owner of the social security number used for the payment (potentially masked for security)."
+      },
+      {
+        "key": "cc_ss_start_month",
+        "description": "The start month of the social security number used for the payment."
+      },
+      {
+        "key": "cc_ss_start_year",
+        "description": "The start year of the social security number used for the payment."
+      },
+      {
+        "key": "po_number",
+        "description": "The purchase order number associated with the payment (if applicable)."
+      },
+      {
+        "key": "additional_data",
+        "description": "Any additional data related to the payment in text format."
+      },
+      {
+        "key": "cc_ss_issue",
+        "description": "The issuing institution for the social security number (potentially masked for security)."
+      },
+      {
+        "key": "additional_information",
+        "description": "Any additional information about the payment in text format."
+      },
+      {
+        "key": "tokenbase_id",
+        "description": "The ParadoxLabs_TokenBase Card ID (if applicable)."
+      },
+      {
+        "key": "paypal_payer_id",
+        "description": "The Paypal Payer ID (if the payment was made through Paypal)."
+      },
+      {
+        "key": "paypal_payer_status",
+        "description": "The Paypal Payer Status (if the payment was made through Paypal)."
+      },
+      {
+        "key": "paypal_correlation_id",
+        "description": "The Paypal Correlation ID (if the payment was made through Paypal)."
+      }
+    ]
+  }
+}
