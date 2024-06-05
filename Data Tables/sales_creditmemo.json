@@ -1,0 +1,38 @@
+{"sales_creditmemo": {
+  "description": "This table contains information about credit memos issued for orders",
+  "data": [
+      {"key": "entity_id", "description": "The primary key of the table, unique identifier for each credit memo."},
+      {"key": "order_id", "description": "Identifier for the order to which this credit memo is associated."},
+      {"key": "creditmemo_status", "description": "The status of the credit memo (e.g., open, closed, partially_refunded)."},
+      {"key": "state", "description": "The state of the credit memo (e.g., new, processing, closed)."},
+      {"key": "increment_id", "description": "Unique sequential credit memo identifier."},
+      {"key": "store_id", "description": "Identifier for the store where the order was placed."},
+      {"key": "customer_id", "description": "Identifier for the customer who placed the order."},
+      {"key": "base_grand_total", "description": "Base grand total of the credit memo."},
+      {"key": "grand_total", "description": "Grand total of the credit memo."},
+      {"key": "base_adjustment_positive", "description": "Base positive adjustment amount for the credit memo."},
+      {"key": "adjustment_positive", "description": "Positive adjustment amount for the credit memo."},
+      {"key": "base_tax_amount", "description": "Base tax amount for the credit memo."},
+      {"key": "tax_amount", "description": "Tax amount for the credit memo."},
+      {"key": "shipping_amount", "description": "Shipping amount for the credit memo."},
+      {"key": "base_shipping_amount", "description": "Base shipping amount for the credit memo."},
+      {"key": "discount_amount", "description": "Discount amount applied to the credit memo."},
+      {"key": "base_discount_amount", "description": "Base discount amount applied to the credit memo."},
+      {"key": "shipping_tax_amount", "description": "Tax amount for shipping on the credit memo."},
+      {"key": "base_shipping_tax_amount", "description": "Base tax amount for shipping on the credit memo."},
+      {"key": "adjustment_negative", "description": "Negative adjustment amount for the credit memo."},
+      {"key": "base_adjustment_negative", "description": "Base negative adjustment amount for the credit memo."},
+      {"key": "created_at", "description": "Date and time when the credit memo was created."},
+      {"key": "updated_at", "description": "Date and time when the credit memo was last updated."},
+      {"key": "creditmemo_id", "description": "Unique identifier for the credit memo."},
+      {"key": "invoice_id", "description": "Identifier for the invoice associated with the credit memo, if applicable."},
+      {"key": "transaction_id", "description": "Identifier for the transaction associated with the credit memo."},
+      {"key": "base_currency_code", "description": "Base currency code for the credit memo."},
+      {"key": "order_currency_code", "description": "Currency code for the order associated with the credit memo."},
+      {"key": "store_currency_code", "description": "Currency code for the store where the order was placed."},
+      {"key": "refunded_qty", "description": "Quantity of items refunded by the credit memo."},
+      {"key": "creditmemo_status_label", "description": "Label for the status of the credit memo."},
+      {"key": "state_label", "description": "Label for the state of the credit memo."}
+  ]
+}
+}

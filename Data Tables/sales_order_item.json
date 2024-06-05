@@ -1,0 +1,41 @@
+   {
+     "sales_order_item": { 
+        "description": "This table contains items associated with each order",
+        "data": [
+            {"key": "item_id", "description": "The primary key of the table, unique identifier for each order item."},
+            {"key": "order_id", "description": "Identifier for the order to which this item belongs."},
+            {"key": "product_id", "description": "Identifier for the product."},
+            {"key": "sku", "description": "tock Keeping Unit, the unique identifier for the product."},
+            {"key": "name", "description": "Name of the product."},
+            {"key": "qty_ordered", "description": "Quantity of the product ordered."},
+            {"key": "price", "description": "Price of the product."},
+            {"key": "base_price", "description": "Base price of the product."},
+            {"key": "original_price", "description": "Original price of the product before any discounts."},
+            {"key": "row_total", "description": "Total price for this row (price * qty_ordered)."},
+            {"key": "base_row_total", "description": "Base total price for this row."},
+            {"key": "created_at", "description": "Date and time when the order item was created."},
+            {"key": "updated_at", "description": "Date and time when the order item was last updated."},
+            {"key": "description", "description": "The description of the product."},
+            {"key": "additional_data", "description": "Additional item data, often stored as serialized information."},
+            {"key": "base_price", "description": "The base price of the product."},
+            {"key": "is_qty_decimal", "description": "Indicates whether the quantity is in decimals (1 for decimal, 0 for integer)."},
+            {"key": "no_discount ", "description": "Indicates whether the item is not eligible for discounts (1 for no discount, 0 otherwise)."},
+            {"key": "qty_backordered", "description": "The quantity of the product that was backordered."},
+            {"key": "qty_canceled ", "description": "The quantity of the product that was canceled."},
+            {"key": "qty_invoiced", "description": "The quantity of the product that was invoiced."},
+            {"key": "qty_refunded", "description": "The quantity of the product that was refunded."},
+            {"key": "qty_shipped.", "description": " The quantity of the product that was shipped."},
+            {"key": "base_cost", "description": "The base cost of the product."},
+            {"key": "original_price.", "description": "The original price of the product in the order currency."},
+            {"key": "gift_message_id", "description": "The ID of the gift message associated with the product."},
+            {"key": "gift_message_available", "description": "Indicates whether a gift message is available for the product (1 for available, 0 otherwise)."},
+            {"key": "applied_rule_ids", "description": "Serialized IDs of sales rules (promotions) applied to the item."},
+            {"key": "amount_refunded.", "description": " The amount refunded for the product in the order currency."},
+            {"key": "discount_percent", "description": "The discount percentage applied to the product."},
+            {"key": "ext_order_item_id", "description": "An external ID for the order item, often used for integration with external systems."},
+            {"key": "weight", "description": "The weight of the product."},
+            {"key": "discount_amount", "description":"The discount amount for the product in the order currency.."},
+            {"key": "discount_refunded", "description": "The discount amount refunded for the product in the order currency."}        
+        ]
+   }  
+}

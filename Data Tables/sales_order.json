@@ -1,0 +1,47 @@
+{
+    "sales_order": { 
+        "description": "This table contains general order information",
+        "data": [
+            {"key": "entity_id", "description" : "The primary key of the table, unique identifier for each order."},
+            {"key": "state", "description" : "The state of the order (e.g., new, processing, complete, closed, canceled)."},
+            {"key": "status", "description" : "The status of the order (e.g., pending, processing, complete)."},
+            {"key": "coupon_code", "description" : "The coupon code applied to the order, if any."},
+            {"key": "protect_code", "description" : "A code to protect the order."},
+            {"key": "shipping_description", "description" : "Description of the shipping method used."},
+            {"key": "is_virtual", "description" : "Indicates if the order contains only virtual products."},
+            {"key": "store_id", "description" : "Identifier for the store where the order was placed."},
+            {"key": "customer_id", "description" : "Identifier for the customer who placed the order."},
+            {"key": "base_discount_amount", "description" : "Base discount amount applied to the order."},
+            {"key": "base_grand_total", "description" : "Base grand total of the order."},
+            {"key": "base_shipping_amount", "description" : "Base shipping amount for the order."},
+            {"key": "base_subtotal", "description" : "Base subtotal of the order."},
+            {"key": "base_tax_amount", "description" : "Base tax amount for the order."},
+            {"key": "base_to_global_rate", "description" : "Exchange rate from base currency to global currency."},
+            {"key": "base_to_order_rate", "description" : "Exchange rate from base currency to order currency."},
+            {"key": "discount_amount", "description" : "Discount amount applied to the order."},
+            {"key": "grand_total", "description" : "Grand total of the order."},
+            {"key": "shipping_amount", "description" : "Shipping amount for the order."},
+            {"key": "subtotal", "description" : "Subtotal of the order."},
+            {"key": "tax_amount", "description" : "Tax amount for the order."},
+            {"key": "total_qty_ordered", "description" : "Total quantity of items ordered."},
+            {"key": "customer_email", "description" : "Email address of the customer."},
+            {"key": "customer_firstname", "description" : "First name of the customer."},
+            {"key": "customer_lastname", "description" : "Last name of the customer."},
+            {"key": "created_at", "description" : "Date and time when the order was created."},
+            {"key": "updated_at", "description" : "Date and time when the order was last updated."},
+            {"key": "total_item_count", "description" : "Total count of items in the order."},
+            {"key": "base_total_invoiced", "description" : "the total amount that has been invoiced for a particular order."},
+            {"key": "customer_gender", "description" : "The gender of the customer."},
+            {"key": "quote_address_id", "description" : "Referencing the address associated with a quote (or shopping cart)."},
+            {"key": "quote_id", "description" : "The unique identifier for each quote (shopping cart) in the quote table."},
+            {"key": "payment_authorization_amount", "description" : "The amount that has been authorized by the payment gateway for an order."},
+            {"key": "weight", "description" : " the weight of products in an order or a quote."},
+            {"key": "customer_note", "description" : "additional information or comments provided by the customer during the checkout process."},
+            {"key": "discount_canceled", "description": "the amount of discount that was applied to an order but subsequently canceled."},
+            {"key": "billing_address_id", "description": " The foreign key to determine thebilling address details associated with the order."},
+            {"key": " coupon_code", "description": "Coupon applied to order."},
+            {"key": " increment_id", "description": "Unique identifier for an order."}   
+            
+        ]
+    }
+}

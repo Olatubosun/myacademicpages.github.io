@@ -1,0 +1,126 @@
+{
+  "sales_invoice": {
+    "description": "This table contains information about invoices generated for orders",
+    "data": [
+      {
+        "key": "entity_id",
+        "description": "The primary key of the table, unique identifier for each invoice."
+      },
+      {
+        "key": "order_id",
+        "description": "Identifier for the order to which this invoice is associated."
+      },
+      {
+        "key": "store_id",
+        "description": "Identifier for the store where the order was placed."
+      },
+      {
+        "key": "increment_id",
+        "description": "Unique sequential invoice identifier."
+      },
+      { "key": "grand_total", "description": "Grand total of the invoice." },
+      {
+        "key": "base_grand_total",
+        "description": "Base grand total of the invoice."
+      },
+      {
+        "key": "shipping_tax_amount",
+        "description": "Tax amount for shipping on the invoice."
+      },
+      {
+        "key": "base_shipping_tax_amount",
+        "description": "Base tax amount for shipping on the invoice."
+      },
+      { "key": "tax_amount", "description": "Tax amount for the invoice." },
+      {
+        "key": "base_tax_amount",
+        "description": "Base tax amount for the invoice."
+      },
+      {
+        "key": "shipping_amount",
+        "description": "Shipping amount for the invoice."
+      },
+      {
+        "key": "base_shipping_amount",
+        "description": "Base shipping amount for the invoice."
+      },
+      { "key": "subtotal", "description": "Subtotal of the invoice." },
+      {
+        "key": "base_subtotal",
+        "description": "Base subtotal of the invoice."
+      },
+      {
+        "key": "discount_amount",
+        "description": "Discount amount applied to the invoice."
+      },
+      {
+        "key": "base_discount_amount",
+        "description": "Base discount amount applied to the invoice."
+      },
+      {
+        "key": "created_at",
+        "description": "Date and time when the invoice was created."
+      },
+      {
+        "key": "updated_at",
+        "description": "Date and time when the invoice was last updated."
+      },
+      {
+        "key": "invoice_id",
+        "description": "Unique identifier for the invoice."
+      },
+      {
+        "key": "customer_id",
+        "description": "Identifier for the customer who placed the order."
+      },
+      {
+        "key": "customer_name",
+        "description": "Name of the customer who placed the order."
+      },
+      {
+        "key": "customer_email",
+        "description": "Email address of the customer who placed the order."
+      },
+      {
+        "key": "billing_address_id",
+        "description": "Identifier for the billing address associated with the invoice."
+      },
+      {
+        "key": "shipping_address_id",
+        "description": "Identifier for the shipping address associated with the invoice."
+      },
+      {
+        "key": "invoice_status",
+        "description": "The status of the invoice (e.g., pending, paid, canceled)."
+      },
+      {
+        "key": "state",
+        "description": "The state of the invoice (e.g., new, processing, closed)."
+      },
+      {
+        "key": "base_currency_code",
+        "description": "Base currency code for the invoice."
+      },
+      {
+        "key": "order_currency_code",
+        "description": "Currency code for the order associated with the invoice."
+      },
+      {
+        "key": "store_currency_code",
+        "description": "Currency code for the store where the order was placed."
+      },
+      {
+        "key": "invoice_status_label",
+        "description": "Label for the status of the invoice."
+      },
+      {
+        "key": "state_label",
+        "description": "Label for the state of the invoice."
+      },
+      {
+        "key": "items",
+        "description": "Collection of items included in the invoice."
+      }
+    ]
+  }
+}

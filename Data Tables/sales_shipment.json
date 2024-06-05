@@ -1,0 +1,128 @@
+{
+  "sales_shipment": {
+    "description": "This table contains information about shipments for orders",
+    "data": [
+      {
+        "key": "entity_id",
+        "description": "The primary key of the table, unique identifier for each shipment."
+      },
+      {
+        "key": "order_id",
+        "description": "Identifier for the order to which this shipment is associated."
+      },
+      {
+        "key": "store_id",
+        "description": "Identifier for the store where the order was placed."
+      },
+      { "key": "total_weight", "description": "Total weight of the shipment." },
+      {
+        "key": "total_qty",
+        "description": "Total quantity of items in the shipment."
+      },
+      {
+        "key": "email_sent",
+        "description": "Flag indicating if a shipment email was sent to the customer."
+      },
+      {
+        "key": "send_email",
+        "description": "Flag indicating if an email should be sent for this shipment."
+      },
+      {
+        "key": "shipment_status",
+        "description": "The status of the shipment (e.g., pending, shipped, canceled)."
+      },
+      {
+        "key": "increment_id",
+        "description": "Unique sequential shipment identifier."
+      },
+      {
+        "key": "created_at",
+        "description": "Date and time when the shipment was created."
+      },
+      {
+        "key": "updated_at",
+        "description": "Date and time when the shipment was last updated."
+      },
+      {
+        "key": "packages",
+        "description": "Information about packages included in the shipment."
+      },
+      {
+        "key": "shipping_address_id",
+        "description": "Identifier for the shipping address associated with the shipment."
+      },
+      {
+        "key": "billing_address_id",
+        "description": "Identifier for the billing address associated with the shipment."
+      },
+      {
+        "key": "shipment_id",
+        "description": "Unique identifier for the shipment."
+      },
+      {
+        "key": "customer_id",
+        "description": "Identifier for the customer who placed the order."
+      },
+      {
+        "key": "customer_name",
+        "description": "Name of the customer who placed the order."
+      },
+      {
+        "key": "customer_email",
+        "description": "Email address of the customer who placed the order."
+      },
+      {
+        "key": "shipping_description",
+        "description": "Description of the shipping method used for the shipment."
+      },
+      {
+        "key": "shipping_amount",
+        "description": "Shipping amount for the shipment."
+      },
+      {
+        "key": "base_shipping_amount",
+        "description": "Base shipping amount for the shipment."
+      },
+      {
+        "key": "shipping_tax_amount",
+        "description": "Tax amount for shipping on the shipment."
+      },
+      {
+        "key": "base_shipping_tax_amount",
+        "description": "Base tax amount for shipping on the shipment."
+      },
+      {
+        "key": "carrier_code",
+        "description": "Code for the carrier used for the shipment."
+      },
+      {
+        "key": "tracking_number",
+        "description": "Tracking number for the shipment."
+      },
+      {
+        "key": "shipment_status_label",
+        "description": "Label for the status of the shipment."
+      },
+      {
+        "key": "weight_unit",
+        "description": "Unit of measurement for the weight of the shipment."
+      },
+      {
+        "key": "base_currency_code",
+        "description": "Base currency code for the shipment."
+      },
+      {
+        "key": "order_currency_code",
+        "description": "Currency code for the order associated with the shipment."
+      },
+      {
+        "key": "store_currency_code",
+        "description": "Currency code for the store where the order was placed."
+      },
+      {
+        "key": "items",
+        "description": "Collection of items included in the shipment."
+      }
+    ]
+  }
+}
